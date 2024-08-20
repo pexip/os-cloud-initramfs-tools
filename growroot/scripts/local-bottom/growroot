@@ -1,5 +1,4 @@
 #!/bin/sh
-set -e
 
 PREREQS=""
 case $1 in
