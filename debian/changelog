@@ -1,3 +1,9 @@
+cloud-initramfs-tools (0.18.debian13+pexip24u1+deb12u1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+
+ -- Steve McIntyre <steve.mcintyre@pexip.com>  Tue, 29 Apr 2025 16:30:15 +0100
+
 cloud-initramfs-tools (0.18.debian13+deb12u1) bookworm; urgency=medium
 
   * growroot: add missing dependencies (Closes: #1037914)
