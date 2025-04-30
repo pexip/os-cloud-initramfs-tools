@@ -1,3 +1,10 @@
+cloud-initramfs-tools (0.18.debian13+pexip24u2+deb12u1) pexip; urgency=medium
+
+  * Tweak dependencies for cloud-initramfs-growroot
+    We don't need cloud-image-utils, just cloud-guest-utils.
+
+ -- Steve McIntyre <steve.mcintyre@pexip.com>  Wed, 30 Apr 2025 15:56:29 +0100
+
 cloud-initramfs-tools (0.18.debian13+pexip24u1+deb12u1) pexip; urgency=medium
 
   * Prepare Pexip packaging

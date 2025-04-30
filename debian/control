@@ -29,7 +29,7 @@ Description: boot off a rescue volume rather than root filesystem
 
 Package: cloud-initramfs-growroot
 Architecture: all
-Depends: cloud-utils (>= 0.26-2~),
+Depends: cloud-guest-utils (>= 0.26-2~),
          initramfs-tools,
          fdisk | util-linux (<< 2.29.2-3~),
          ${misc:Depends},
