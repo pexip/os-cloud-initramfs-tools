@@ -32,6 +32,7 @@ Architecture: all
 Depends: cloud-guest-utils (>= 0.26-2~),
          initramfs-tools,
          fdisk | util-linux (<< 2.29.2-3~),
+	 e2fsprogs,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: automatically resize the root partition on first boot

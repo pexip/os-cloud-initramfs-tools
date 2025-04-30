@@ -17,5 +17,6 @@ copy_exec /usr/bin/flock /bin
 copy_exec /usr/bin/grep /bin
 copy_exec /usr/bin/rm /bin
 copy_exec /usr/bin/sed /bin
+copy_exec /usr/sbin/resize2fs /sbin
 
 # vi: ts=4 noexpandtab
